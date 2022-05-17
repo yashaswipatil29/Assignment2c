@@ -1,1 +1,91 @@
 /* You can add global styles to this file, and also import other style files */
+.navbar , .banner , .lets-start ,.companies , .footer{
+  background-color: #03386f;
+}
+.banner-content {
+  margin-top: 10rem;
+
+}
+
+.courses , .lets-start , .companies , .footer{
+  padding: 40px 0px;
+}
+.course-list{
+  list-style-type:none;
+  padding: 0;
+  display: inline-flex;
+  margin: 10px 0px;
+}
+.course-list .fa{
+  font-size: 50px;
+  font-weight: 900;
+  color: #03386f;
+}
+.course-list li{
+  width: 20%;
+  padding: 20px 40px;
+  margin: 10px;
+  background-color: lightgreen;
+}
+.course-list h3{
+  font-weight: 400;
+}
+.course-list p{
+  font-size: 20px;
+  font-weight: 100;
+}
+.course-list a{
+  text-decoration: none;
+  color: #03386f;
+}
+.course-list a:hover{
+  text-decoration: underline;
+}
+.projects{
+  padding: 40px 120px ;
+}
+.accordion-header button{
+  background-color: lightgreen;
+  color: #03386f;
+}
+.accordion-button:not(.collapsed){
+  background-color: #03386f;
+  color: white;
+}
+
+.companies h1{
+      margin: 0px 0px 40px 0px;
+}
+.company-list{
+  list-style-type: none;
+  padding: 0;
+  display: inline-flex;
+}
+.company-list li{
+  margin: 0px 20px;
+}
+.courseList , .social-media{
+  list-style-type:none;
+  padding: 0;
+  line-height: 2.5;
+}
+.courseList a{
+  text-decoration: none;
+}
+.courseList a:hover{
+  text-decoration: underline;
+}
+.social-media{
+  display: inline-flex;
+}
+.support a{
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 2.5;
+}
+.social-media li:not(:first-child){
+  margin: 0px 10px;
+}
+.social-media li:not(:first-child){
+  margin-right: 10px;
+}
